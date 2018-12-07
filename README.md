@@ -14,6 +14,10 @@ After you have cloned this repository, use pip or easy_install to install the IR
 $ pip install irc
 ```
 
+or you can simply installing it on Heroku. It doesn't have any web interface right now, so intalling it in the heroku won't do anything though. It requires web interface implementation so that app can take the channel name and run against it.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ## Usage
 To run the chatbot, you will need to provide an OAuth access token with the chat_login scope.  You can reference an authentication sample to accomplish this, or simply use the [Twitch Chat OAuth Password Generator](http://twitchapps.com/tmi/).
 
