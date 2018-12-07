@@ -1,0 +1,19 @@
+{
+  "name": "Twitch Chatlog Collector",
+  "description": "Twitch TV channel chat log collector",
+  "keywords": ["twitch", "chatbot"],
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
